@@ -22,7 +22,7 @@ python -m pip install torch pandas transformers
 
 On macOS or Linux, activate the environment with `source .venv/bin/activate` instead.
 
-## Run
+## Run the demo pipeline
 
 From the project root:
 
@@ -30,7 +30,21 @@ From the project root:
 python main.py
 ```
 
-The first run downloads the pretrained sentiment model and tokenizer. The pipeline writes 50 synthetic reviews to `data/raw/automotive_reviews_synthetic.json`, then prints aspect-level sentiment and confidence for a sample review. Running it again replaces that generated JSON file.
+The pipeline writes 50 synthetic reviews to `data/raw/automotive_reviews_synthetic.json`, then analyzes a sample review for the explicitly supplied aspects `battery range` and `charging time`. It prints each aspect's sentiment and confidence. Running it again replaces the generated JSON file.
+
+## Run the interactive predictor
+
+To enter your own review and let the predictor identify matching automotive aspects:
+
+```powershell
+python predict.py
+```
+
+The predictor prints aspect-level sentiment and confidence, or a message if it cannot identify any aspects. Both inference entry points download the pretrained `distilbert-base-uncased-finetuned-sst-2-english` model and tokenizer on first use. An internet connection is required for that initial download.
+
+## Training
+
+`src/train.py` contains a fine-tuning function for labeled aspect/sentiment samples, but there is no training command or saved-checkpoint workflow yet. `config.py` defines the training model (`bert-base-uncased`) and its hyperparameters; the demo and interactive predictor use the pretrained sentiment model described above.
 
 ## Project layout
 
@@ -38,14 +52,14 @@ The first run downloads the pretrained sentiment model and tokenizer. The pipeli
 .
 ├── config.py                  # Paths and model/training settings
 ├── main.py                    # Dataset generation and inference example
+├── predict.py                 # Interactive aspect sentiment predictor
 ├── data/
-│   └── raw/                    # Generated synthetic review data
+│   └── raw/                   # Generated synthetic review data
 └── src/
+    ├── __init__.py
     ├── dataset_generator.py   # Synthetic review generation
     ├── inference.py           # Aspect matching and sentiment inference
     ├── model.py               # Custom PyTorch classifier
     ├── preprocessing.py       # Text cleanup, clause splitting, tokenization
     └── train.py               # Model training components
 ```
-
-The example inference engine uses `distilbert-base-uncased-finetuned-sst-2-english`. The model name and other training settings are defined in `config.py` and the relevant source modules.
