@@ -1,7 +1,7 @@
 [
   {
     "review_id": "REV-00001",
-    "text": "The touchscreen infotainment is overpriced, but the price is superb.",
+    "text": "The touchscreen infotainment is overpriced, but the price is disappointing.",
     "aspects": [
       {
         "aspect": "touchscreen infotainment",
@@ -11,50 +11,50 @@
       {
         "aspect": "price",
         "category": "Price",
-        "sentiment": "Positive"
+        "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00002",
-    "text": "The engine power is smooth and fuel economy is excellent.",
+    "text": "Dealer service was disappointing, making the overall vehicle experience poor.",
     "aspects": [
       {
-        "aspect": "engine power",
-        "category": "Engine",
-        "sentiment": "Positive"
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Negative"
       },
       {
-        "aspect": "fuel economy",
-        "category": "Mileage",
-        "sentiment": "Positive"
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00003",
-    "text": "Cabin comfort is superb, though safety features feel too long.",
+    "text": "Cabin comfort is sluggish, though safety features feel smooth.",
     "aspects": [
       {
         "aspect": "cabin comfort",
         "category": "Comfort",
-        "sentiment": "Positive"
+        "sentiment": "Negative"
       },
       {
         "aspect": "safety features",
         "category": "Safety",
-        "sentiment": "Negative"
+        "sentiment": "Positive"
       }
     ]
   },
   {
     "review_id": "REV-00004",
-    "text": "Cabin comfort is too long, though safety features feel sluggish.",
+    "text": "Cabin comfort is impressive, though safety features feel overpriced.",
     "aspects": [
       {
         "aspect": "cabin comfort",
         "category": "Comfort",
-        "sentiment": "Negative"
+        "sentiment": "Positive"
       },
       {
         "aspect": "safety features",
@@ -65,44 +65,44 @@
   },
   {
     "review_id": "REV-00005",
-    "text": "The engine power is great and fuel economy is overpriced.",
+    "text": "Dealer service was impressive, making the overall vehicle experience superb.",
     "aspects": [
       {
-        "aspect": "engine power",
-        "category": "Engine",
+        "aspect": "dealer service",
+        "category": "Service",
         "sentiment": "Positive"
       },
       {
-        "aspect": "fuel economy",
-        "category": "Mileage",
-        "sentiment": "Negative"
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Positive"
       }
     ]
   },
   {
     "review_id": "REV-00006",
-    "text": "The engine power is excellent and fuel economy is unreliable.",
-    "aspects": [
-      {
-        "aspect": "engine power",
-        "category": "Engine",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "fuel economy",
-        "category": "Mileage",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00007",
-    "text": "The touchscreen infotainment is superb, but the price is overpriced.",
+    "text": "The touchscreen infotainment is great, but the price is excellent.",
     "aspects": [
       {
         "aspect": "touchscreen infotainment",
         "category": "Infotainment",
         "sentiment": "Positive"
+      },
+      {
+        "aspect": "price",
+        "category": "Price",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00007",
+    "text": "The touchscreen infotainment is sluggish, but the price is sluggish.",
+    "aspects": [
+      {
+        "aspect": "touchscreen infotainment",
+        "category": "Infotainment",
+        "sentiment": "Negative"
       },
       {
         "aspect": "price",
@@ -113,23 +113,7 @@
   },
   {
     "review_id": "REV-00008",
-    "text": "The battery range is sluggish, but the charging time is great.",
-    "aspects": [
-      {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "charging time",
-        "category": "Battery",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00009",
-    "text": "Dealer service was superb, making the overall vehicle experience disappointing.",
+    "text": "Dealer service was great, making the overall vehicle experience great.",
     "aspects": [
       {
         "aspect": "dealer service",
@@ -139,29 +123,13 @@
       {
         "aspect": "vehicle experience",
         "category": "Vehicle",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00010",
-    "text": "The battery range is disappointing, but the charging time is superb.",
-    "aspects": [
-      {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "charging time",
-        "category": "Battery",
         "sentiment": "Positive"
       }
     ]
   },
   {
-    "review_id": "REV-00011",
-    "text": "The engine power is great and fuel economy is disappointing.",
+    "review_id": "REV-00009",
+    "text": "The engine power is smooth and fuel economy is overpriced.",
     "aspects": [
       {
         "aspect": "engine power",
@@ -176,56 +144,8 @@
     ]
   },
   {
-    "review_id": "REV-00012",
-    "text": "The battery range is overpriced, but the charging time is overpriced.",
-    "aspects": [
-      {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "charging time",
-        "category": "Battery",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00013",
-    "text": "Cabin comfort is overpriced, though safety features feel poor.",
-    "aspects": [
-      {
-        "aspect": "cabin comfort",
-        "category": "Comfort",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "safety features",
-        "category": "Safety",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00014",
-    "text": "The battery range is overpriced, but the charging time is disappointing.",
-    "aspects": [
-      {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "charging time",
-        "category": "Battery",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00015",
-    "text": "The touchscreen infotainment is smooth, but the price is unreliable.",
+    "review_id": "REV-00010",
+    "text": "The touchscreen infotainment is superb, but the price is excellent.",
     "aspects": [
       {
         "aspect": "touchscreen infotainment",
@@ -235,13 +155,61 @@
       {
         "aspect": "price",
         "category": "Price",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00011",
+    "text": "The engine power is outstanding and fuel economy is excellent.",
+    "aspects": [
+      {
+        "aspect": "engine power",
+        "category": "Engine",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "fuel economy",
+        "category": "Mileage",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00012",
+    "text": "Cabin comfort is sluggish, though safety features feel outstanding.",
+    "aspects": [
+      {
+        "aspect": "cabin comfort",
+        "category": "Comfort",
+        "sentiment": "Negative"
+      },
+      {
+        "aspect": "safety features",
+        "category": "Safety",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00013",
+    "text": "The touchscreen infotainment is disappointing, but the price is sluggish.",
+    "aspects": [
+      {
+        "aspect": "touchscreen infotainment",
+        "category": "Infotainment",
+        "sentiment": "Negative"
+      },
+      {
+        "aspect": "price",
+        "category": "Price",
         "sentiment": "Negative"
       }
     ]
   },
   {
-    "review_id": "REV-00016",
-    "text": "The engine power is overpriced and fuel economy is impressive.",
+    "review_id": "REV-00014",
+    "text": "The engine power is unreliable and fuel economy is impressive.",
     "aspects": [
       {
         "aspect": "engine power",
@@ -256,8 +224,40 @@
     ]
   },
   {
+    "review_id": "REV-00015",
+    "text": "Dealer service was poor, making the overall vehicle experience sluggish.",
+    "aspects": [
+      {
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Negative"
+      },
+      {
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00016",
+    "text": "Dealer service was great, making the overall vehicle experience excellent.",
+    "aspects": [
+      {
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
     "review_id": "REV-00017",
-    "text": "Dealer service was too long, making the overall vehicle experience impressive.",
+    "text": "Dealer service was overpriced, making the overall vehicle experience outstanding.",
     "aspects": [
       {
         "aspect": "dealer service",
@@ -273,39 +273,23 @@
   },
   {
     "review_id": "REV-00018",
-    "text": "The touchscreen infotainment is impressive, but the price is poor.",
+    "text": "Cabin comfort is overpriced, though safety features feel unreliable.",
     "aspects": [
       {
-        "aspect": "touchscreen infotainment",
-        "category": "Infotainment",
-        "sentiment": "Positive"
+        "aspect": "cabin comfort",
+        "category": "Comfort",
+        "sentiment": "Negative"
       },
       {
-        "aspect": "price",
-        "category": "Price",
+        "aspect": "safety features",
+        "category": "Safety",
         "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00019",
-    "text": "The battery range is disappointing, but the charging time is excellent.",
-    "aspects": [
-      {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "charging time",
-        "category": "Battery",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00020",
-    "text": "Dealer service was too long, making the overall vehicle experience outstanding.",
+    "text": "Dealer service was poor, making the overall vehicle experience unreliable.",
     "aspects": [
       {
         "aspect": "dealer service",
@@ -315,34 +299,50 @@
       {
         "aspect": "vehicle experience",
         "category": "Vehicle",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00020",
+    "text": "The touchscreen infotainment is impressive, but the price is smooth.",
+    "aspects": [
+      {
+        "aspect": "touchscreen infotainment",
+        "category": "Infotainment",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "price",
+        "category": "Price",
         "sentiment": "Positive"
       }
     ]
   },
   {
     "review_id": "REV-00021",
-    "text": "The engine power is outstanding and fuel economy is outstanding.",
-    "aspects": [
-      {
-        "aspect": "engine power",
-        "category": "Engine",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "fuel economy",
-        "category": "Mileage",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00022",
-    "text": "The battery range is sluggish, but the charging time is poor.",
+    "text": "The battery range is overpriced, but the charging time is overpriced.",
     "aspects": [
       {
         "aspect": "battery range",
         "category": "Battery",
         "sentiment": "Negative"
+      },
+      {
+        "aspect": "charging time",
+        "category": "Battery",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00022",
+    "text": "The battery range is impressive, but the charging time is too long.",
+    "aspects": [
+      {
+        "aspect": "battery range",
+        "category": "Battery",
+        "sentiment": "Positive"
       },
       {
         "aspect": "charging time",
@@ -353,23 +353,23 @@
   },
   {
     "review_id": "REV-00023",
-    "text": "The battery range is superb, but the charging time is smooth.",
+    "text": "The touchscreen infotainment is excellent, but the price is excellent.",
     "aspects": [
       {
-        "aspect": "battery range",
-        "category": "Battery",
+        "aspect": "touchscreen infotainment",
+        "category": "Infotainment",
         "sentiment": "Positive"
       },
       {
-        "aspect": "charging time",
-        "category": "Battery",
+        "aspect": "price",
+        "category": "Price",
         "sentiment": "Positive"
       }
     ]
   },
   {
     "review_id": "REV-00024",
-    "text": "The battery range is excellent, but the charging time is unreliable.",
+    "text": "The battery range is smooth, but the charging time is poor.",
     "aspects": [
       {
         "aspect": "battery range",
@@ -385,87 +385,39 @@
   },
   {
     "review_id": "REV-00025",
-    "text": "Cabin comfort is smooth, though safety features feel outstanding.",
+    "text": "Dealer service was overpriced, making the overall vehicle experience overpriced.",
     "aspects": [
       {
-        "aspect": "cabin comfort",
-        "category": "Comfort",
-        "sentiment": "Positive"
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Negative"
       },
       {
-        "aspect": "safety features",
-        "category": "Safety",
-        "sentiment": "Positive"
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00026",
-    "text": "Cabin comfort is unreliable, though safety features feel unreliable.",
+    "text": "The touchscreen infotainment is smooth, but the price is overpriced.",
     "aspects": [
       {
-        "aspect": "cabin comfort",
-        "category": "Comfort",
-        "sentiment": "Negative"
+        "aspect": "touchscreen infotainment",
+        "category": "Infotainment",
+        "sentiment": "Positive"
       },
       {
-        "aspect": "safety features",
-        "category": "Safety",
+        "aspect": "price",
+        "category": "Price",
         "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00027",
-    "text": "The touchscreen infotainment is excellent, but the price is outstanding.",
-    "aspects": [
-      {
-        "aspect": "touchscreen infotainment",
-        "category": "Infotainment",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "price",
-        "category": "Price",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00028",
-    "text": "Dealer service was excellent, making the overall vehicle experience superb.",
-    "aspects": [
-      {
-        "aspect": "dealer service",
-        "category": "Service",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "vehicle experience",
-        "category": "Vehicle",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00029",
-    "text": "The touchscreen infotainment is unreliable, but the price is superb.",
-    "aspects": [
-      {
-        "aspect": "touchscreen infotainment",
-        "category": "Infotainment",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "price",
-        "category": "Price",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00030",
-    "text": "The battery range is too long, but the charging time is poor.",
+    "text": "The battery range is disappointing, but the charging time is overpriced.",
     "aspects": [
       {
         "aspect": "battery range",
@@ -480,8 +432,72 @@
     ]
   },
   {
+    "review_id": "REV-00028",
+    "text": "Dealer service was poor, making the overall vehicle experience disappointing.",
+    "aspects": [
+      {
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Negative"
+      },
+      {
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00029",
+    "text": "The battery range is superb, but the charging time is smooth.",
+    "aspects": [
+      {
+        "aspect": "battery range",
+        "category": "Battery",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "charging time",
+        "category": "Battery",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00030",
+    "text": "Dealer service was great, making the overall vehicle experience poor.",
+    "aspects": [
+      {
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
     "review_id": "REV-00031",
-    "text": "Dealer service was disappointing, making the overall vehicle experience outstanding.",
+    "text": "Cabin comfort is outstanding, though safety features feel disappointing.",
+    "aspects": [
+      {
+        "aspect": "cabin comfort",
+        "category": "Comfort",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "safety features",
+        "category": "Safety",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00032",
+    "text": "Dealer service was disappointing, making the overall vehicle experience smooth.",
     "aspects": [
       {
         "aspect": "dealer service",
@@ -496,24 +512,8 @@
     ]
   },
   {
-    "review_id": "REV-00032",
-    "text": "The engine power is sluggish and fuel economy is excellent.",
-    "aspects": [
-      {
-        "aspect": "engine power",
-        "category": "Engine",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "fuel economy",
-        "category": "Mileage",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
     "review_id": "REV-00033",
-    "text": "Cabin comfort is unreliable, though safety features feel too long.",
+    "text": "Cabin comfort is too long, though safety features feel sluggish.",
     "aspects": [
       {
         "aspect": "cabin comfort",
@@ -529,60 +529,60 @@
   },
   {
     "review_id": "REV-00034",
-    "text": "Cabin comfort is too long, though safety features feel disappointing.",
+    "text": "Dealer service was smooth, making the overall vehicle experience sluggish.",
     "aspects": [
       {
-        "aspect": "cabin comfort",
-        "category": "Comfort",
-        "sentiment": "Negative"
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Positive"
       },
       {
-        "aspect": "safety features",
-        "category": "Safety",
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
         "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00035",
-    "text": "The battery range is too long, but the charging time is outstanding.",
-    "aspects": [
-      {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "charging time",
-        "category": "Battery",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00036",
-    "text": "The battery range is disappointing, but the charging time is impressive.",
-    "aspects": [
-      {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "charging time",
-        "category": "Battery",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00037",
-    "text": "Dealer service was sluggish, making the overall vehicle experience unreliable.",
+    "text": "Dealer service was unreliable, making the overall vehicle experience sluggish.",
     "aspects": [
       {
         "aspect": "dealer service",
         "category": "Service",
         "sentiment": "Negative"
+      },
+      {
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00036",
+    "text": "The engine power is outstanding and fuel economy is too long.",
+    "aspects": [
+      {
+        "aspect": "engine power",
+        "category": "Engine",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "fuel economy",
+        "category": "Mileage",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00037",
+    "text": "Dealer service was great, making the overall vehicle experience sluggish.",
+    "aspects": [
+      {
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Positive"
       },
       {
         "aspect": "vehicle experience",
@@ -593,71 +593,55 @@
   },
   {
     "review_id": "REV-00038",
-    "text": "The touchscreen infotainment is smooth, but the price is poor.",
+    "text": "Cabin comfort is superb, though safety features feel sluggish.",
     "aspects": [
       {
-        "aspect": "touchscreen infotainment",
-        "category": "Infotainment",
+        "aspect": "cabin comfort",
+        "category": "Comfort",
         "sentiment": "Positive"
       },
       {
-        "aspect": "price",
-        "category": "Price",
+        "aspect": "safety features",
+        "category": "Safety",
         "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00039",
-    "text": "The battery range is excellent, but the charging time is excellent.",
+    "text": "Dealer service was overpriced, making the overall vehicle experience disappointing.",
     "aspects": [
       {
-        "aspect": "battery range",
-        "category": "Battery",
-        "sentiment": "Positive"
+        "aspect": "dealer service",
+        "category": "Service",
+        "sentiment": "Negative"
       },
       {
-        "aspect": "charging time",
-        "category": "Battery",
-        "sentiment": "Positive"
+        "aspect": "vehicle experience",
+        "category": "Vehicle",
+        "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00040",
-    "text": "The touchscreen infotainment is too long, but the price is overpriced.",
+    "text": "The engine power is great and fuel economy is disappointing.",
     "aspects": [
       {
-        "aspect": "touchscreen infotainment",
-        "category": "Infotainment",
-        "sentiment": "Negative"
+        "aspect": "engine power",
+        "category": "Engine",
+        "sentiment": "Positive"
       },
       {
-        "aspect": "price",
-        "category": "Price",
+        "aspect": "fuel economy",
+        "category": "Mileage",
         "sentiment": "Negative"
       }
     ]
   },
   {
     "review_id": "REV-00041",
-    "text": "Cabin comfort is impressive, though safety features feel too long.",
-    "aspects": [
-      {
-        "aspect": "cabin comfort",
-        "category": "Comfort",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "safety features",
-        "category": "Safety",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00042",
-    "text": "The engine power is excellent and fuel economy is unreliable.",
+    "text": "The engine power is great and fuel economy is too long.",
     "aspects": [
       {
         "aspect": "engine power",
@@ -672,8 +656,104 @@
     ]
   },
   {
+    "review_id": "REV-00042",
+    "text": "Cabin comfort is overpriced, though safety features feel impressive.",
+    "aspects": [
+      {
+        "aspect": "cabin comfort",
+        "category": "Comfort",
+        "sentiment": "Negative"
+      },
+      {
+        "aspect": "safety features",
+        "category": "Safety",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
     "review_id": "REV-00043",
-    "text": "The touchscreen infotainment is excellent, but the price is poor.",
+    "text": "The touchscreen infotainment is excellent, but the price is impressive.",
+    "aspects": [
+      {
+        "aspect": "touchscreen infotainment",
+        "category": "Infotainment",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "price",
+        "category": "Price",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00044",
+    "text": "Cabin comfort is outstanding, though safety features feel outstanding.",
+    "aspects": [
+      {
+        "aspect": "cabin comfort",
+        "category": "Comfort",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "safety features",
+        "category": "Safety",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00045",
+    "text": "Cabin comfort is poor, though safety features feel too long.",
+    "aspects": [
+      {
+        "aspect": "cabin comfort",
+        "category": "Comfort",
+        "sentiment": "Negative"
+      },
+      {
+        "aspect": "safety features",
+        "category": "Safety",
+        "sentiment": "Negative"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00046",
+    "text": "Cabin comfort is impressive, though safety features feel excellent.",
+    "aspects": [
+      {
+        "aspect": "cabin comfort",
+        "category": "Comfort",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "safety features",
+        "category": "Safety",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00047",
+    "text": "The engine power is superb and fuel economy is impressive.",
+    "aspects": [
+      {
+        "aspect": "engine power",
+        "category": "Engine",
+        "sentiment": "Positive"
+      },
+      {
+        "aspect": "fuel economy",
+        "category": "Mileage",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00048",
+    "text": "The touchscreen infotainment is excellent, but the price is disappointing.",
     "aspects": [
       {
         "aspect": "touchscreen infotainment",
@@ -688,104 +768,8 @@
     ]
   },
   {
-    "review_id": "REV-00044",
-    "text": "Cabin comfort is great, though safety features feel poor.",
-    "aspects": [
-      {
-        "aspect": "cabin comfort",
-        "category": "Comfort",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "safety features",
-        "category": "Safety",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00045",
-    "text": "The engine power is excellent and fuel economy is smooth.",
-    "aspects": [
-      {
-        "aspect": "engine power",
-        "category": "Engine",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "fuel economy",
-        "category": "Mileage",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00046",
-    "text": "Dealer service was outstanding, making the overall vehicle experience sluggish.",
-    "aspects": [
-      {
-        "aspect": "dealer service",
-        "category": "Service",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "vehicle experience",
-        "category": "Vehicle",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00047",
-    "text": "The engine power is sluggish and fuel economy is sluggish.",
-    "aspects": [
-      {
-        "aspect": "engine power",
-        "category": "Engine",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "fuel economy",
-        "category": "Mileage",
-        "sentiment": "Negative"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00048",
-    "text": "Dealer service was great, making the overall vehicle experience outstanding.",
-    "aspects": [
-      {
-        "aspect": "dealer service",
-        "category": "Service",
-        "sentiment": "Positive"
-      },
-      {
-        "aspect": "vehicle experience",
-        "category": "Vehicle",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
     "review_id": "REV-00049",
-    "text": "Cabin comfort is sluggish, though safety features feel great.",
-    "aspects": [
-      {
-        "aspect": "cabin comfort",
-        "category": "Comfort",
-        "sentiment": "Negative"
-      },
-      {
-        "aspect": "safety features",
-        "category": "Safety",
-        "sentiment": "Positive"
-      }
-    ]
-  },
-  {
-    "review_id": "REV-00050",
-    "text": "The battery range is poor, but the charging time is unreliable.",
+    "text": "The battery range is sluggish, but the charging time is great.",
     "aspects": [
       {
         "aspect": "battery range",
@@ -795,7 +779,23 @@
       {
         "aspect": "charging time",
         "category": "Battery",
+        "sentiment": "Positive"
+      }
+    ]
+  },
+  {
+    "review_id": "REV-00050",
+    "text": "The touchscreen infotainment is overpriced, but the price is superb.",
+    "aspects": [
+      {
+        "aspect": "touchscreen infotainment",
+        "category": "Infotainment",
         "sentiment": "Negative"
+      },
+      {
+        "aspect": "price",
+        "category": "Price",
+        "sentiment": "Positive"
       }
     ]
   }
